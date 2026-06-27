@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student</title>
+    <style>
+        body {
+            background-color: rgb(187, 218, 250);
+        }
+
+        .ak nav {
+            float: left;
+            width: 130px;
+            background-color: rgb(21, 91, 126);
+            padding: 3px;
+            min-height: 573px;
+            margin-left: -8px;
+            margin-top: -15px;
+        }
+
+        .ak nav h3 {
+            color: white;
+            margin-left: 8px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+        }
+
+        .ak nav a {
+            text-decoration: none;
+            display: block;
+            padding: 5px;
+            color: white;
+            margin: 10px;
+
+
+            &:hover {
+                background-color: rgb(70, 134, 113);
+                padding: 3px;
+                border-radius: 3px;
+
+            }
+        }
+
+        .am h2 {
+            background-color: rgb(21, 91, 126);
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+            padding: 8px;
+            margin-left: 150px;
+            border-radius: 10px;
+            width: 1090px;
+        }
+
+        td img {
+            border-radius: 60%;
+            width: 40px;
+            height: 40px;
+            padding: 2px;
+
+        }
+
+        th {
+            background-color: rgb(147, 75, 198);
+            border-collapse: collapse;
+            padding: 10px;
+            color: white;
+
+
+
+        }
+
+        table {
+            border-collapse: collapse;
+            margin: auto;
+            width: 1100px;
+            margin-right: 10px;
+            background-color: aliceblue;
+            border-radius: 5px;
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: 100px;
+
+        }
+
+        .edit {
+            background-color: rgb(15, 98, 3);
+            color: white;
+            border: 5px;
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        .delete {
+            background-color: red;
+            color: white;
+            border: 5px;
+            border-radius: 5px;
+            padding: 5px;
+        }
+
+        tr:hover {
+            background-color: rgba(197, 197, 167, 0.395);
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="ak">
+        <nav>
+            <h3>Dashboard</h3>
+            <a href="Dashboard.html">Home</a>
+            <a href="Students.html">Students</a>
+            <a href="settings.html">Settings</a>
+            <a href="Logout.html">Logout</a>
+            
+        </nav>
+    </div>
+    <div class="am">
+        <h2>Stuednt Information Dashboard</h2>
+    </div>
+    <div>
+        <table>
+            <tr>
+                <th>Photo</th>
+                <th>Name</th>
+                <th>ID</th>
+                <th>Location</th>
+                <th>Status</th>
+                <th>Gender</th>
+                <th>Edit</th>
+                <th>Delete</th>
+            </tr>
+            <tr>
+                <td><img src="hurdaaye.jpg" alt=""></td>
+                <td>Abdalla moh'ed</td>
+                <td>C1250531</td>
+                <td>Kaxda</td>
+                <td>Single</td>
+                <td>Male</td>
+                <td>
+                    <button class="edit">Edit</button>
+                </td>
+                <td>
+                    <button class="delete">Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td><img src="smiling-professional-woman-in-business-attire-and-hijab-free-photo.jpg" alt=""></td>
+                <td>Sahra Ali</td>
+                <td>C1250532</td>
+                <td>Waberi</td>
+                <td>Single</td>
+                <td>Female</td>
+                <td>
+                    <button class="edit">Edit</button>
+                </td>
+                <td>
+                    <button class="delete">Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td><img src="confident-and-successful-confident-young-man-in-formalwear-looking-at-camera-while-standing-against-grey-background-photo.jpg"
+                        alt=""></td>
+                <td>Ali Gedi</td>
+                <td>C1250533</td>
+                <td>Yaqshiid</td>
+                <td>Maried</td>
+                <td>Male</td>
+                <td>
+                    <button class="edit">Edit</button>
+                </td>
+                <td><button class="delete">Delete</button></td>
+            </tr>
+            <tr>
+                <td><img src="a-man-in-a-suit-and-tie-standing-with-his-arms-crossed-free-photo.jpg" alt=""></td>
+                <td>Elmi Hagi</td>
+                <td>C1250534</td>
+                <td>Hodan</td>
+                <td>Maried</td>
+                <td>Male</td>
+                <td>
+                    <button class="edit">Edit</button>
+                </td>
+                <td>
+                    <button class="delete">Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td><img src="business-man-on-white-photo.jpg" alt=""></td>
+                <td>Salad Jele</td>
+                <td>C1250535</td>
+                <td>Daynile</td>
+                <td>Single</td>
+                <td>Male</td>
+                <td>
+                    <button class="edit">Edit</button>
+                </td>
+                <td>
+                    <button class="delete">Delete</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
